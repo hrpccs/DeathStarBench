@@ -27,8 +27,8 @@ spec:
     spec:
       containers:
         - command:
-            - ./geo
-          image: deathstarbench/hotel-reservation:latest
+            - geo
+          image: registry.cn-guangzhou.aliyuncs.com/fullstack-tracer/hotelreservation:with-symbol
           name: hotel-reserv-geo
           ports:
             - containerPort: 8083
